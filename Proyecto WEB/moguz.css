@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo {
+    color: white;
+    font: 120% monospace;
+    padding: 14px 16px;
+    text-align: center;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    font: 120% monospace;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+li a:hover {
+    background-color: black;
+
+}
+
+
+body {
+    background-color: lightgray;
+}
+
+#container{
+    font-family: serif ;
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.article {
+    float: left;
+    width: 80%;
+}
+
+aside {
+    float: left;
+    width: 20%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#pdfConImagenes{
+    list-style-type: none;
+    width: 15%;
+    display: block;
+}
+
+#pdfConImagenes:hover{
+    background-color: black;
+}
+
+footer{
+    font-size: 80%;
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
